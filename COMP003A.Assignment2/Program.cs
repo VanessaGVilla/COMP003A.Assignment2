@@ -30,7 +30,9 @@ namespace ClearConsole
             string firstName = "Vanessa";
             Console.WriteLine($"Enter First Name: {firstName}");
             string middleName = "Elizabeth";
-
+            Console.WriteLine($"Enter Middle Name: {middleName}");
+            string lastName = "Garcia";
+            Console.WriteLine($"Enter Last Name: {lastName}");
 
 
         }
