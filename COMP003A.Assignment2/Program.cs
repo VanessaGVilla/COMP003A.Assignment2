@@ -53,6 +53,14 @@ namespace ClearConsole
             Console.WriteLine(x % y);
 
 
+            Console.WriteLine("*************************************************************************");
+            Console.WriteLine("Circle Area and Circumference Calculator");
+            Console.WriteLine("************************************************************************");
+            Console.Write("Enter Radius: ");
+            double Radius = Convert.ToDouble(Console.ReadLine());
+            double Area = Math.PI * Radius * Radius;
+
+
 
         }
     }
