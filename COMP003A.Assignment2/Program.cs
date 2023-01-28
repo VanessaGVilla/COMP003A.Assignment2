@@ -25,19 +25,7 @@ namespace ClearConsole
 
 
             Console.WriteLine("*************************************************************************");
-            Console.WriteLine("String Section");
-            Console.WriteLine("*************************************************************************");
-            string firstName = "Vanessa";
-            Console.WriteLine(firstName);
-            string middleName = "Elizabeth";
-            Console.WriteLine(middleName);
-            string lastName = "Garcia";
-            Console.WriteLine(lastName);
-            string inputAge = "40";
-            Console.WriteLine(inputAge);
-            int yearBorn = 2023 - Convert.ToInt32(inputAge);
-            Console.WriteLine(yearBorn);
-            Console.WriteLine($"Hello, {firstName} {middleName} {lastName}. You were born in {yearBorn}.");
+         
 
 
         }
