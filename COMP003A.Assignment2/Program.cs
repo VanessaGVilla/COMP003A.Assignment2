@@ -25,7 +25,12 @@ namespace ClearConsole
 
 
             Console.WriteLine("*************************************************************************");
-         
+            Console.WriteLine("String Section");
+            Console.WriteLine("*************************************************************************");
+            string firstName = "Vanessa";
+            Console.WriteLine($"Enter First Name: {firstName}");
+            string middleName = "Elizabeth";
+
 
 
         }
