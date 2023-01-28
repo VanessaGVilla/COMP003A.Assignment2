@@ -1,6 +1,6 @@
 ﻿/*Author: Vanessa Garcia
  * Course: Comp - 003A - L01
- * Purpose: Assignment two
+ * Purpose: Assignment Two Programming Basics
 */
 
 
