@@ -13,6 +13,7 @@ namespace ClearConsole
 
         static void Main(string[] args)
         {
+            Console.Title = "COMP-003A - Assignment 2";
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.White;
@@ -50,6 +51,8 @@ namespace ClearConsole
             Console.WriteLine(x * y);
             Console.WriteLine(x / y);
             Console.WriteLine(x % y);
+
+
 
         }
     }
