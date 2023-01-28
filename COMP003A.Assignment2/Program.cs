@@ -38,6 +38,19 @@ namespace ClearConsole
             int yearBorn = 2023 - Convert.ToInt32(inputAge);
             Console.WriteLine($"Hello, {firstName} {middleName} {lastName}. You were born in {yearBorn}.");
 
+            Console.WriteLine("*************************************************************************");
+            Console.WriteLine("Math Section");
+            Console.WriteLine("************************************************************************");
+            int x = 30;
+            Console.WriteLine("Enter an Integer For Integer1: 30");
+            int y = 7;
+            Console.WriteLine("Enter an Integer For Integer2: 7");
+            Console.WriteLine(x + y);
+            Console.WriteLine(x - y);
+            Console.WriteLine(x * y);
+            Console.WriteLine(x / y);
+            Console.WriteLine(x % y);
+
         }
     }
 }
